@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid lightgray;
+    background-color: whitesmoke;
+}
+
+caption {
+    padding-bottom: 10px;
+}
+
+th {
+    border: 1px solid lightgray;
+    padding: 5px 28px;
+}
+
+td {
+    text-align: center;
+    padding: 9px 18px;
+    border: 1px solid lightgray;
+}

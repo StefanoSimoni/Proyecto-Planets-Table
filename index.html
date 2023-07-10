@@ -4,22 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Datos planetarios</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Datos planetarios</h1>
     <table>
+        <colgroup>
+            <col />
+            <col />
+            <col />
+            <col />
+            <col style="border: 2px solid black;" />
+        </colgroup>
         <caption>Datos acerca de los planetas de nuestro sistema solar (Hechos planetarios tomados de <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/">Hoja de datos planetarios de la NASA - Métrico</a>).</caption>
         <thead>
             <tr>
                 <th colspan="4">&nbsp;</th>
                 <th scope="col">Nombre</th>
-                <th scope="col">Masa(10<sup>24</sup>kg)</th>
-                <th scope="col">Diametro(km)</th>
-                <th scope="col">Densidad(kg)</th>
-                <th scope="col">Gravedad(m/s<sup>2</sup>)</th>
-                <th scope="col">Duracion del dia(horas)</th>
-                <th scope="col">Distancia del Sol(10<sup>6</sup>km)</th>
-                <th scope="col">Temperatura media(°C)</th>
+                <th scope="col">Masa<br>(10<sup>24</sup>kg)</th>
+                <th scope="col">Diametro<br>(km)</th>
+                <th scope="col">Densidad<br>(kg)</th>
+                <th scope="col">Gravedad<br>(m/s<sup>2</sup>)</th>
+                <th scope="col">Duracion del dia<br>(horas)</th>
+                <th scope="col">Distancia del Sol<br>(10<sup>6</sup>km)</th>
+                <th scope="col">Temperatura media<br>(°C)</th>
                 <th scope="col">Numero de lunas</th>
                 <th scope="col">Notas</th>
             </tr>
@@ -29,7 +37,7 @@
                 <th scope="row" rowspan="5" colspan="4">Planetas Terrestres</th>
             </tr>
             <tr>
-                <td>Mercurio</td>
+                <th>Mercurio</th>
                 <td>0.330</td>
                 <td>4,879</td>
                 <td>5427</td>
@@ -41,7 +49,7 @@
                 <td>El mas cercano al Sol</td>
             </tr>
             <tr>
-                <td>Venus</td>
+                <th>Venus</th>
                 <td>4.87</td>
                 <td>12,104</td>
                 <td>5243</td>
@@ -50,9 +58,10 @@
                 <td>108.2</td>
                 <td>464</td>
                 <td>0</td>
+                <td></td>
             </tr>
             <tr>
-                <td>Tierra</td>
+                <th>Tierra</th>
                 <td>5.97</td>
                 <td>12,756</td>
                 <td>5514</td>
@@ -64,7 +73,7 @@
                 <td>Nuestro mundo</td>
             </tr>
             <tr>
-                <td>Marte</td>
+                <th>Marte</th>
                 <td>0.642</td>
                 <td>6,792</td>
                 <td>3933</td>
@@ -81,7 +90,7 @@
             <tr>
                 <th scope="row" rowspan="3">Gigantes Gaseosos</th>
                 <tr>
-                    <td>Jupiter</td>
+                    <th>Jupiter</th>
                     <td>1898</td>
                     <td>142,984</td>
                     <td>1326</td>
@@ -93,7 +102,7 @@
                     <td>El planeta mas grande</td>
                 </tr>
                 <tr>
-                    <td>Saturno</td>
+                    <th>Saturno</th>
                     <td>568</td>
                     <td>120,536</td>
                     <td>687</td>
@@ -102,13 +111,14 @@
                     <td>1433.5</td>
                     <td>-140</td>
                     <td>62</td>
+                    <td></td>
                 </tr>
                 
             </tr>
             <tr>
                 <th scope="row" rowspan="3">Gigantes Helados</th>
                 <tr>
-                    <td>Urano</td>
+                    <th>Urano</th>
                     <td>86.8</td>
                     <td>51,118</td>
                     <td>1271</td>
@@ -117,9 +127,10 @@
                     <td>2872.5</td>
                     <td>-195</td>
                     <td>27</td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td>Neptuno</td>
+                    <th>Neptuno</th>
                     <td>102</td>
                     <td>49,528</td>
                     <td>1638</td>
@@ -128,13 +139,14 @@
                     <td>4495.1</td>
                     <td>-200</td>
                     <td>14</td>
+                    <td></td>
                 </tr>
             </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th scope="row" colspan="4">Planetas Enanos</th>
-                <td>Pluton</td>
+                <th>Pluton</th>
                 <td>0.0146</td>
                 <td>2,370</td>
                 <td>2095</td>
